@@ -1,1 +1,1 @@
-Program to have Peter Alert you.
+Program to have Peter Griffin alert you.
