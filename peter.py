@@ -11,6 +11,14 @@ signal.signal(signal.SIGINT, signal_handler)
 top = None
 popup_open = False
 
+interval_options = {
+	"5 seconds": 5000,
+	"30 seconds": 30000,
+	"1 minute": 60000,
+	"5 minutes": 300000,
+	"30 minutes": 1800000
+}
+
 
 def start_move(event):
 	global x, y
@@ -43,7 +51,7 @@ def show_popup():
 		top = tk.Toplevel(root)
 		top.overrideredirect(True)
 		top.attributes('-topmost', True)
-		top.configure(bg='light blue')
+		top.configure(bg='lightblue')
 
 		# create widgets
 		title_bar = tk.Frame(top, bg='white', relief='raised', bd=2)
@@ -65,7 +73,7 @@ def show_popup():
 		top.grab_set_global()   # set the global grab
 
 		# create and place image
-		image_label = tk.Label(top, image=img, bg='light blue')
+		image_label = tk.Label(top, image=img, bg='lightblue')
 		image_label.pack()
 
 		ok_button = tk.Button(top, text="OK", command=dismiss_popup, bg='white')
@@ -74,16 +82,16 @@ def show_popup():
 
 	# schedule next popup after 1000ms (1 second) (OLD)
 	# schedule next popup after 300000ms (5 minutes)
-	root.after(300000, show_popup)
+	# root.after(300000, show_popup)
 
 
-def center_window(width=250, height=120):
+def center_window(window, width=200, height=200):
 	global top
 	screen_width = root.winfo_screenwidth()
 	screen_height = root.winfo_screenheight()
 	x_cordinate = int((screen_width/2) - (width/2))
 	y_cordinate = int((screen_height/2) - (height/2))
-	top.geometry(f"{width}x{height}+{x_cordinate}+{y_cordinate}")
+	window.geometry(f"{width}x{height}+{x_cordinate}+{y_cordinate}")
 
 
 def keep_on_top(window):
@@ -101,6 +109,50 @@ def random_pos(width=250, height=120):
 	top.geometry(f"{width}x{height}+{x_coordinate}+{y_coordinate}")
 
 
+scheduled_popup_id = None
+
+def start_alerts():
+	global alert_interval, scheduled_popup_id, start_button
+	interval = interval_options[alert_interval.get()]
+	
+	if scheduled_popup_id is None:
+		start_button['state'] = 'disabled'
+		scheduled_popup_id = root.after(interval, start_alerts)
+		show_popup()
+
+
+def stop_alerts():
+	global scheduled_popup_id, start_button
+	if scheduled_popup_id is not None:
+		root.after_cancel(scheduled_popup_id)
+		scheduled_popup_id = None
+		start_button['state'] = 'normal'
+
+
+def controller_window():
+	global alert_interval, scheduled_popup_id, start_button
+	control_win = tk.Toplevel(root)
+	control_win.title("Alert Control")
+	control_win.configure(bg='lightblue')
+
+	center_window(control_win)
+	
+	main_label = tk.Label(control_win, text="Peter Alert", bg='lightblue', font=(16))
+	main_label.pack(pady=10)
+
+	# dropdown for selecting alert interval
+	dropdown_label = tk.Label(control_win, text="Choose alert interval:", bg='lightblue')
+	dropdown_label.pack()
+
+	dropdown = tk.OptionMenu(control_win, alert_interval, *interval_options.keys())
+	dropdown.pack()
+
+	start_button = tk.Button(control_win, text="Start Alerts", command=start_alerts, bg='green', fg='white')
+	start_button.pack(pady=5)
+
+	stop_button = tk.Button(control_win, text="Stop Alerts", command=stop_alerts, bg='red', fg='white')
+	stop_button.pack(pady=5)
+
 
 # create the root tk window
 root = tk.Tk()
@@ -108,7 +160,11 @@ root = tk.Tk()
 root.withdraw()
 root.update() 
 
+alert_interval = tk.StringVar(value="5 minutes")
+
 img = tk.PhotoImage(file='peter3.png')
 
-show_popup()
+# show_popup()
+controller_window()
+
 root.mainloop()
