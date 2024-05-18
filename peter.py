@@ -3,11 +3,16 @@ import signal
 import sys
 import random
 
-def signal_handler(sig, frame):
+def exit_program():
 	print(" Exiting...")
+	if scheduled_popup_id is not None:  # cancel the scheduled popup
+		root.after_cancel(scheduled_popup_id)
+	if top:  # destroy the popup window if it is open
+		top.destroy()
+	root.destroy()
 	sys.exit(0)
 
-signal.signal(signal.SIGINT, signal_handler)
+signal.signal(signal.SIGINT, exit_program)
 top = None
 popup_open = False
 
@@ -85,13 +90,12 @@ def show_popup():
 	# root.after(300000, show_popup)
 
 
-def center_window(window, width=200, height=200):
-	global top
-	screen_width = root.winfo_screenwidth()
-	screen_height = root.winfo_screenheight()
+def center_window(control_win, width=200, height=200):
+	screen_width = control_win.winfo_screenwidth()
+	screen_height = control_win.winfo_screenheight()
 	x_cordinate = int((screen_width/2) - (width/2))
 	y_cordinate = int((screen_height/2) - (height/2))
-	window.geometry(f"{width}x{height}+{x_cordinate}+{y_cordinate}")
+	control_win.geometry(f"{width}x{height}+{x_cordinate}+{y_cordinate}")
 
 
 def keep_on_top(window):
@@ -134,6 +138,7 @@ def controller_window():
 	control_win = tk.Toplevel(root)
 	control_win.title("Alert Control")
 	control_win.configure(bg='lightblue')
+	control_win.protocol("WM_DELETE_WINDOW", exit_program)
 
 	center_window(control_win)
 	
