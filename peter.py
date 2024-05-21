@@ -2,6 +2,7 @@ from tkinter import Tk, Toplevel, Label, Button, Frame, PhotoImage, StringVar, O
 import signal
 import sys
 import os
+from pygame import mixer
 
 def exit_program():
 	print(" Exiting...")
@@ -15,6 +16,9 @@ def exit_program():
 signal.signal(signal.SIGINT, exit_program)
 top = None
 popup_open = False
+mixer.init()
+alert_sound = mixer.Sound("ding.wav")
+alert_sound.set_volume(0.2)
 
 interval_options = {
 	"5 seconds": 5000,
@@ -55,19 +59,21 @@ def show_popup():
 	global popup_open, top
 	if not popup_open:
 		popup_open = True
-
+		
 		top = Toplevel(root)
 		top.overrideredirect(True)
 		top.attributes('-topmost', True)
 		top.configure(bg='lightblue')
+
+		alert_sound.play()
 
 		# create widgets
 		title_bar = Frame(top, bg='white', relief='raised', bd=2)
 		title_bar.pack(fill='x')
 		title_label = Label(title_bar, text='Peter Alert', bg='white')
 		title_label.pack(side='left', padx=10)
-		window_close_button = Button(title_bar, text='X', command=dismiss_popup)
-		window_close_button.pack(side='right')
+		# window_close_button = Button(title_bar, text='X')
+		# window_close_button.pack(side='right')
 
 		# bind window movement
 		title_bar.bind('<Button-1>', start_move)
@@ -101,7 +107,7 @@ def keep_on_top(window):
 	window.after(100, lambda: keep_on_top(window))
 
 def random_pos(width=250, height=120):
-	import random  # Lazy import of the random module
+	import random
 	global top
 	screen_width = root.winfo_screenwidth()
 	screen_height = root.winfo_screenheight()
