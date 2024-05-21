@@ -8,4 +8,6 @@ Download and unzip peter-alert.zip
 
 Run peter-alert.exe
 
+A popup will appear where you can select settings for the Peter Alert
+
 #### NOTE: The .exe will take much longer to initially load with an antivirus active.
