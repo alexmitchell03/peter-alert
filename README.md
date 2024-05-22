@@ -6,7 +6,7 @@ Program to have Peter Griffin alert you.
 ## Usage:
 Download and unzip peter-alert.zip
 
-Run peter-alert.exe
+Run peter-alert.exe or the Python script
 
 A popup will appear where you can select settings for the Peter Alert
 
