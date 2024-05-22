@@ -32,6 +32,18 @@
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
    'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\users\\alexmitchell03\\Local Settings\\Application '
+   'Data\\Programs\\Python\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\users\\alexmitchell03\\Local Settings\\Application '
+   'Data\\Programs\\Python\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\users\\alexmitchell03\\Local Settings\\Application '
+   'Data\\Programs\\Python\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
   ('pyi_rth__tkinter',
    'C:\\users\\alexmitchell03\\Local Settings\\Application '
    'Data\\Programs\\Python\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',

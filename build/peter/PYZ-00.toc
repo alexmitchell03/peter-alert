@@ -1,11 +1,27 @@
 ('Z:\\home\\alexmitchell03\\personal-projects\\peter-alert\\build\\peter\\PYZ-00.pyz',
- [('_compat_pickle',
+ [('__future__',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\__future__.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_bootsubprocess',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\_bootsubprocess.py',
+   'PYMODULE'),
+  ('_compat_pickle',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\_compat_pickle.py',
    'PYMODULE'),
   ('_compression',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\_compression.py',
+   'PYMODULE'),
+  ('_osx_support',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\_osx_support.py',
    'PYMODULE'),
   ('_py_abc',
    'c:\\users\\alexmitchell03\\local settings\\application '
@@ -14,6 +30,10 @@
   ('_pydecimal',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('_pyi_rth_utils',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\__init__.py',
    'PYMODULE'),
   ('_strptime',
    'c:\\users\\alexmitchell03\\local settings\\application '
@@ -27,9 +47,17 @@
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\argparse.py',
    'PYMODULE'),
+  ('ast',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\ast.py',
+   'PYMODULE'),
   ('base64',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\base64.py',
+   'PYMODULE'),
+  ('bdb',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\bdb.py',
    'PYMODULE'),
   ('bisect',
    'c:\\users\\alexmitchell03\\local settings\\application '
@@ -42,6 +70,18 @@
   ('calendar',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\calendar.py',
+   'PYMODULE'),
+  ('cmd',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\cmd.py',
+   'PYMODULE'),
+  ('code',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\codeop.py',
    'PYMODULE'),
   ('configparser',
    'c:\\users\\alexmitchell03\\local settings\\application '
@@ -63,6 +103,18 @@
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\csv.py',
    'PYMODULE'),
+  ('ctypes',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\dataclasses.py',
+   'PYMODULE'),
   ('datetime',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\datetime.py',
@@ -70,6 +122,58 @@
   ('decimal',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\decimal.py',
+   'PYMODULE'),
+  ('dis',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\dis.py',
+   'PYMODULE'),
+  ('distutils',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('distutils.debug',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\distutils\\debug.py',
+   'PYMODULE'),
+  ('distutils.dep_util',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\distutils\\dep_util.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\distutils\\dir_util.py',
+   'PYMODULE'),
+  ('distutils.errors',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\distutils\\file_util.py',
+   'PYMODULE'),
+  ('distutils.filelist',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\distutils\\filelist.py',
+   'PYMODULE'),
+  ('distutils.log',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\distutils\\log.py',
+   'PYMODULE'),
+  ('distutils.spawn',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\distutils\\spawn.py',
+   'PYMODULE'),
+  ('distutils.sysconfig',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('distutils.util',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\distutils\\util.py',
    'PYMODULE'),
   ('email',
    'c:\\users\\alexmitchell03\\local settings\\application '
@@ -159,13 +263,25 @@
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\fractions.py',
    'PYMODULE'),
+  ('ftplib',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\ftplib.py',
+   'PYMODULE'),
   ('getopt',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\getopt.py',
    'PYMODULE'),
+  ('getpass',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\getpass.py',
+   'PYMODULE'),
   ('gettext',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\gettext.py',
+   'PYMODULE'),
+  ('glob',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\glob.py',
    'PYMODULE'),
   ('gzip',
    'c:\\users\\alexmitchell03\\local settings\\application '
@@ -174,6 +290,34 @@
   ('hashlib',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('html',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('http',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.client',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http.server',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('imp',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\imp.py',
    'PYMODULE'),
   ('importlib',
    'c:\\users\\alexmitchell03\\local settings\\application '
@@ -203,6 +347,10 @@
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\importlib\\util.py',
    'PYMODULE'),
+  ('inspect',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\inspect.py',
+   'PYMODULE'),
   ('logging',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\logging\\__init__.py',
@@ -211,21 +359,173 @@
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\lzma.py',
    'PYMODULE'),
+  ('mimetypes',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('netrc',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\netrc.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\nturl2path.py',
+   'PYMODULE'),
   ('numbers',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\numbers.py',
+   'PYMODULE'),
+  ('opcode',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\opcode.py',
    'PYMODULE'),
   ('optparse',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\optparse.py',
    'PYMODULE'),
+  ('packaging',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('packaging._elffile',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('packaging._manylinux',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('packaging._musllinux',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('packaging._parser',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('packaging._structures',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('packaging._tokenizer',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('packaging.markers',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\packaging\\markers.py',
+   'PYMODULE'),
+  ('packaging.metadata',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\packaging\\metadata.py',
+   'PYMODULE'),
+  ('packaging.requirements',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('packaging.specifiers',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('packaging.tags',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\packaging\\tags.py',
+   'PYMODULE'),
+  ('packaging.utils',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\packaging\\utils.py',
+   'PYMODULE'),
+  ('packaging.version',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
   ('pathlib',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\pathlib.py',
    'PYMODULE'),
+  ('pdb',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\pdb.py',
+   'PYMODULE'),
   ('pickle',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pkg_resources',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._typing',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_typing.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.tags',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('platform',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\plistlib.py',
    'PYMODULE'),
   ('pprint',
    'c:\\users\\alexmitchell03\\local settings\\application '
@@ -235,6 +535,74 @@
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\py_compile.py',
    'PYMODULE'),
+  ('pydoc',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pygame',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pygame\\__init__.py',
+   'PYMODULE'),
+  ('pygame.colordict',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pygame\\colordict.py',
+   'PYMODULE'),
+  ('pygame.cursors',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pygame\\cursors.py',
+   'PYMODULE'),
+  ('pygame.fastevent',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pygame\\fastevent.py',
+   'PYMODULE'),
+  ('pygame.ftfont',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pygame\\ftfont.py',
+   'PYMODULE'),
+  ('pygame.macosx',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pygame\\macosx.py',
+   'PYMODULE'),
+  ('pygame.pkgdata',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pygame\\pkgdata.py',
+   'PYMODULE'),
+  ('pygame.sndarray',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pygame\\sndarray.py',
+   'PYMODULE'),
+  ('pygame.sprite',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pygame\\sprite.py',
+   'PYMODULE'),
+  ('pygame.surfarray',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pygame\\surfarray.py',
+   'PYMODULE'),
+  ('pygame.sysfont',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pygame\\sysfont.py',
+   'PYMODULE'),
+  ('pygame.threads',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pygame\\threads\\__init__.py',
+   'PYMODULE'),
+  ('pygame.version',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\site-packages\\pygame\\version.py',
+   'PYMODULE'),
+  ('queue',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\queue.py',
+   'PYMODULE'),
   ('quopri',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\quopri.py',
@@ -243,9 +611,17 @@
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\random.py',
    'PYMODULE'),
+  ('runpy',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\runpy.py',
+   'PYMODULE'),
   ('selectors',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\selectors.py',
+   'PYMODULE'),
+  ('shlex',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\shlex.py',
    'PYMODULE'),
   ('shutil',
    'c:\\users\\alexmitchell03\\local settings\\application '
@@ -258,6 +634,14 @@
   ('socket',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\socket.py',
+   'PYMODULE'),
+  ('socketserver',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('ssl',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\ssl.py',
    'PYMODULE'),
   ('statistics',
    'c:\\users\\alexmitchell03\\local settings\\application '
@@ -275,9 +659,17 @@
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\subprocess.py',
    'PYMODULE'),
+  ('sysconfig',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\sysconfig.py',
+   'PYMODULE'),
   ('tarfile',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('tempfile',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\tempfile.py',
    'PYMODULE'),
   ('textwrap',
    'c:\\users\\alexmitchell03\\local settings\\application '
@@ -307,6 +699,10 @@
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
    'PYMODULE'),
+  ('tty',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\tty.py',
+   'PYMODULE'),
   ('typing',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\typing.py',
@@ -315,15 +711,75 @@
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\urllib\\__init__.py',
    'PYMODULE'),
+  ('urllib.error',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\urllib\\error.py',
+   'PYMODULE'),
   ('urllib.parse',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\urllib\\response.py',
    'PYMODULE'),
   ('uu',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\uu.py',
    'PYMODULE'),
+  ('uuid',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\uuid.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('xml',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
   ('zipfile',
    'c:\\users\\alexmitchell03\\local settings\\application '
    'data\\Programs\\Python\\Python39\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('zipimport',
+   'c:\\users\\alexmitchell03\\local settings\\application '
+   'data\\Programs\\Python\\Python39\\lib\\zipimport.py',
    'PYMODULE')])

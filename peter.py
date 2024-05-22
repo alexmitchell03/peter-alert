@@ -16,8 +16,11 @@ def exit_program():
 signal.signal(signal.SIGINT, exit_program)
 top = None
 popup_open = False
+base_path3 = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+sound_path3 = os.path.join(base_path3, 'ding.wav')
 mixer.init()
-alert_sound = mixer.Sound("ding.wav")
+
+alert_sound = mixer.Sound(sound_path3)
 alert_sound.set_volume(0.2)
 
 interval_options = {
@@ -92,7 +95,6 @@ def show_popup():
 
 		ok_button = Button(top, text="OK", command=dismiss_popup, bg='white')
 		ok_button.pack()
-		keep_on_top(top)
 
 def center_window(control_win, width=200, height=200):
 	screen_width = control_win.winfo_screenwidth()
@@ -100,11 +102,6 @@ def center_window(control_win, width=200, height=200):
 	x_cordinate = int((screen_width/2) - (width/2))
 	y_cordinate = int((screen_height/2) - (height/2))
 	control_win.geometry(f"{width}x{height}+{x_cordinate}+{y_cordinate}")
-
-def keep_on_top(window):
-	# attempt to refocus the window every 100 ms
-	window.attributes('-topmost', True)
-	window.after(100, lambda: keep_on_top(window))
 
 def random_pos(width=250, height=120):
 	import random
