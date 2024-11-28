@@ -12,4 +12,4 @@ A popup will appear where you can select settings for the Peter Alert
 
 You must acknowledge the alert in order to stop, start, and edit the alert time intervals for the program
 
-#### NOTE: The .exe will take much longer to initially load with an antivirus active
+#### NOTE: From my testing, the .exe will take much longer to initially load with an antivirus active (it will still load with one active, though)
