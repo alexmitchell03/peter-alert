@@ -12,4 +12,4 @@ A popup will appear where you can select settings for the Peter Alert
 
 You must acknowledge the alert in order to stop, start, and edit the alert time intervals for the program
 
-#### NOTE: From my testing, the .exe will take much longer to initially load with an antivirus active (it will still load with one active, though). If you are worried, you can keep your antivirus on and/or just run the python script. I just wanted to share my findings since you may find that the program loads slow (which is OK!).
+#### NOTE: From my testing, the .exe will take much longer to initially load with an antivirus active (it will still load with one active, though). If you are worried, you can keep your antivirus on and/or just run the python script. I just wanted to share my findings since you may find that the program loads slow (which is OK, it does not affect functionality).
