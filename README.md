@@ -12,4 +12,7 @@ A popup will appear where you can select settings for the Peter Alert
 
 You must acknowledge the alert in order to stop, start, and edit the alert time intervals for the program
 
-#### NOTE: From my testing, the .exe will take much longer to initially load with an antivirus active (it will still load with one active, though). If you are worried, you can keep your antivirus on and/or just run the python script. I just wanted to share my findings since you may find that the program loads slow (which is OK, it does not affect functionality).
+> [!NOTE]
+> Since this app isn't digitally signed, Windows Defender or other antivirus software may flag it.  
+> You might have to whitelist the application or select **"Run Anyway"** to proceed.  
+> All the code is open-source, so you may look through it or compile it yourself.
